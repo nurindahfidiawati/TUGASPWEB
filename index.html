@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Daftar Kelas</title>
+        <link rel="stylesheet" href="asset/coba.css">
+        <script src="asset/tabel2.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">  
+                <div div class="logo">
+                    <img src="asset/logo.png">
+                </div>
+                <nav>
+                    <ul>
+                        <li class="aktiv"><a href="index.html">Beranda</a> </li>
+                        <li><a href="tabelkelas.html"> Kelas </a> </li>
+                        <li><a> profile </a> </li>
+                        <li><a href="Tentang kami.html"> Tentang kami </a> </li>
+                        <li><a href="kontak.html"> Kontak </a> </li>
+                        <li class="masuk"><a href="login.html"> Masuk </a> </li>
+                        <li class="daftar"><a href="register.html"> Daftar </a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div>
+            <img class="image" src="asset/image.png">
+        </div>
+        <h2 class="judul">Daftar Kelas</h2>
+        <form name="biodata" method="POST" action="index.html">
+            <pre class="form" >
+                Nama : 
+                <input class="inputan" type="text" name="nama">
+              
+                Tempat Lahir: 
+                <input class="inputan" type="text" name="lahir">
+          
+                Tanggal Lahir: 
+                <input class="inputan" type="date" name="tanggal" min="1945-01-0">
+               
+                Jenis Kelamin: 
+                <label><input type="radio" name="jenis_kelamin" value="Laki-laki" checked/>laki-laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="Perempuan" checked/>Perempuan</label>
+      
+                Alamat:
+                <input class="inputan" type="text" name="alamat">
+             
+                Telepon: 
+                <input class="inputan" type="number" name="telepon">
+
+            </pre>
+            <br>
+                    <input class= "button" type="button" onclick="terimainput()" value="Daftar">
+                   
+        </form>
+        <br>
+        <table border="1" id="tabelinput">
+            <tr>
+                <td>Nama</td>
+                <td>Tempat Lahir</td>
+                <td>Tanggal Lahir</td>
+                <td>Jenis Kelamin</td>
+                <td>Alamat</td>
+                <td>Telepon</td>
+
+            </tr>
+        </table>
+    </body>
+</html>

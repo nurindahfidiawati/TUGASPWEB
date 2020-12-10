@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+body{
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+.logo img{
+    width:70px;
+    margin-left: 50px;
+    
+}
+header nav {
+    float :right;
+    margin-right: 65px;
+    margin-top: -50px;
+
+}
+header li{
+    float : left;
+    display : inline;
+    padding :0 10px 20px 40px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display : inline;
+}
+ul {
+    margin : 0px;
+    padding: 0px;
+}
+header a:hover{
+    color:#90cdf0;
+    font-weight: bold;
+}
+.masuk{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 1px;
+}
+.daftar{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+.container{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+}
+.image{
+    margin-left: 50px;
+    margin-top: 10%;
+    display: inline-block;
+    width: 50%;
+    
+}
+.judul{
+    margin-left: 860px;
+    margin-top: -400px;
+    font-size: 35px;
+}
+.form {
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    top: -10px;
+}
+.button{
+    display: inline-block;
+    position: relative;
+    left: 765px;
+    top: -10px;
+    background-color: #90cdf0;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+}
+
+#tabelinput{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: -10px;
+    padding:10px;
+    font-size: 17px;
+    text-align: center;
+    box-shadow: 2px 2px 15px black;
+    background-color: white;
+
+
+}
+.inputan{
+    box-shadow: 2px 5px 7px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    width: 400px;
+
+
+}
+pre{
+    font-size: 17px;
+    
+}
